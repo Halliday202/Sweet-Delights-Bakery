@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f1;
+            color: #333;
+        }
+        header {
+            background-color: #d2691e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffdab9;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b4513;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('bakery-background.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content h2 {
+            color: #8b4513;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .menu-item {
+            background-color: white;
+            border: 1px solid #f0e4d7;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #8b4513;
+            color: white;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Delights Bakery</h1>
+        <p>Freshly baked goodness every day!</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to Sweet Delights</h2>
+        <p>Your one-stop shop for cakes, pastries, and smiles!</p>
+    </section>
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>At Sweet Delights Bakery, we pride ourselves on creating mouth-watering treats made from the freshest ingredients. Whether it's a birthday, wedding, or just a craving, we've got you covered!</p>
+    </section>
+    <section id="menu" class="content">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="cake.jpg" alt="Delicious Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Rich, moist, and decadent.</p>
+            </div>
+            <div class="menu-item">
+                <img src="croissant.jpg" alt="Croissant">
+                <h3>Butter Croissant</h3>
+                <p>Flaky and buttery perfection.</p>
+            </div>
+            <div class="menu-item">
+                <img src="cupcake.jpg" alt="Cupcake">
+                <h3>Vanilla Cupcake</h3>
+                <p>Soft, sweet, and topped with love.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Come visit us at 123 Main Street, Bakery Town, or call us at (123) 456-7890!</p>
+        <p>Email: contact@sweetdelights.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sweet Delights Bakery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

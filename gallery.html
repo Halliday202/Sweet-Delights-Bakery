@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f1;
+            color: #333;
+        }
+        header {
+            background-color: #d2691e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffdab9;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8b4513;
+            font-weight: bold;
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .content h2 {
+            color: #8b4513;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #8b4513;
+            color: white;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Delights Bakery</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <section class="content">
+        <h2>Gallery</h2>
+        <p>Take a look at some of our delicious creations!</p>
+        <div class="gallery">
+            <img src="cake-gallery.jpg" alt="Chocolate Cake">
+            <img src="cupcake-gallery.jpg" alt="Cupcakes">
+            <img src="bread-gallery.jpg" alt="Artisan Bread">
+            <img src="macarons-gallery.jpg" alt="Assorted Macarons">
+            <img src="cookies-gallery.jpg" alt="Freshly Baked Cookies">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sweet Delights Bakery | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
